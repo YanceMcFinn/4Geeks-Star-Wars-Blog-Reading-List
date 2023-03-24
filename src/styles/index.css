@@ -1,3 +1,86 @@
 /* 
     General Styles
 */
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap'); /* Martian Mono Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');/* Orbitron Font */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap'); /* Jura Font */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap'); /* M PLUS ONE Code Font */
+body {
+    background-color: black;
+    color: white;
+    /* font-family: 'Martian Mono', monospace; */
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Jura', sans-serif; */
+    /* font-family: 'M PLUS 1 Code', sans-serif; */
+}
+
+.single-card {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.single-image {
+    height: 100%;
+    object-fit: cover;
+}
+.single-header {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.single-info-text {
+    font-size: 24px
+}
+.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 30%;
+    overflow: hidden;
+}
+
+.img-starship {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 0%;
+        overflow: hidden;
+}    
+
+.card-row {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+.heart {
+    margin-left: 10px;
+}
+
+.heart:hover {
+    cursor: pointer;
+}
+.deleteFav:hover {
+    color: red;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   background: #5757577a;
+   width: 50px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #808080; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FFFFFF; 
+  }
