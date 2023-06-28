@@ -18,6 +18,7 @@ export function Login() {
   return (
     <div className="login">
       <div className="login__container">
+      <h2 class="text-dark">Login</h2>
         <input
           type="text"
           className="login__textBox"

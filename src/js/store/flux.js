@@ -1,6 +1,7 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
+			isLogged: false,
 			favorites: [],
 			favorites2: [],
 			characters: [],

@@ -24,6 +24,7 @@ export function Register() {
   return (
     <div className="register">
       <div className="register__container">
+      <h2 class="text-dark">Register</h2>
         <input
           type="text"
           className="register__textBox"
